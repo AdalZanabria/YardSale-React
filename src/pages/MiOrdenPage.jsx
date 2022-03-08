@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
-import Inicio from "../containers/Inicio";
+import MiOrden from "../containers/MiOrden";
 import Layout from "../containers/Layout";
 
-const Home = () => {
+const MiOrdenPage = () => {
     return (
         <Layout>
             <Header />
-            <Inicio />
+            <MiOrden />
         </Layout>
     );
 };
 
-export default Home;
+export default MiOrdenPage;

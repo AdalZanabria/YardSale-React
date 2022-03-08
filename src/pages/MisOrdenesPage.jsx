@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
-import Inicio from "../containers/Inicio";
+import MisOrdenes from "../containers/MisOrdenes";
 import Layout from "../containers/Layout";
 
-const Home = () => {
+const MisOrdenesPage = () => {
     return (
         <Layout>
             <Header />
-            <Inicio />
+            <MisOrdenes />
         </Layout>
     );
 };
 
-export default Home;
+export default MisOrdenesPage;
