@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/ProductInfo.scss";
+import "@styles/ProductInfo.scss";
 
-import AddToCart from "@icons/bt_add_to_cart.svg";
+import addToCart from "@icons/bt_add_to_cart.svg";
 
 const ProductInfo = () => {
     return (
@@ -20,7 +20,7 @@ const ProductInfo = () => {
                     laboriosam illo! At voluptatem enim repudiandae eos maxime?
                 </p>
                 <button className="primary-button add-to-cart-button">
-                    <img src={AddToCart} alt="Add to cart" />
+                    <img src={addToCart} alt="Add to cart" />
                     Add to cart
                 </button>
             </div>
