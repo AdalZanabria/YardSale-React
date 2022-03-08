@@ -1,13 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/Layout";
-import Login from "../containers/Login";
-import RecoveryPassword from "../containers/RecoveryPassword";
+import Login from "../pages/Login";
+import SendEmail from "../pages/SendEmail";
 import Home from "../pages/Home";
-import MyAccount from "../containers/MyAccount";
-import EditAccount from "../containers/EditAccount";
-import MiOrdenPage from "../pages/MiOrdenPage";
-import MisOrdenesPage from "../pages/MisOrdenesPage";
+import CreateAccount from "../pages/CreateAccount";
+import MyAccount from "../pages/MyAccount";
+import NewPassword from "../pages/NewPassword";
+import Checkout from "../pages/Checkout";
+import Orders from "../pages/Orders";
+import PasswordRecovery from "../pages/PasswordRecovery";
 import NotFound from "../pages/NotFound";
 import "../styles/global.css";
 
@@ -18,14 +20,16 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/send-email" element={<SendEmail />} />
+                    <Route path="/new-password" element={<NewPassword />} />
+                    <Route path="/signup" element={<CreateAccount />} />
+                    <Route path="/account" element={<MyAccount />} />
+                    <Route path="/checkout" element={<Checkout />} />
                     <Route
-                        path="/recovery-password"
-                        element={<RecoveryPassword />}
+                        path="/password-recovery"
+                        element={<PasswordRecovery />}
                     />
-                    <Route path="/my-account" element={<MyAccount />} />
-                    <Route path="/edit-account" element={<EditAccount />} />
-                    <Route path="/mi-orden" element={<MiOrdenPage />} />
-                    <Route path="/mis-ordenes" element={<MisOrdenesPage />} />
+                    <Route path="/orders" element={<Orders />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Layout>

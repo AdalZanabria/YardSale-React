@@ -1,6 +1,6 @@
 @import "vars";
 
-.my-order {
+.Checkout {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -10,21 +10,24 @@
     font-size: var(--lg);
     margin-bottom: 40px;
 }
-.my-order-container {
+.Checkout-container {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
 }
-.my-order-content {
+.Checkout-content {
     display: flex;
     flex-direction: column;
 }
 .order {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
     gap: 16px;
     align-items: center;
-    margin-bottom: 12px;
+    background-color: var(--text-input-field);
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 0 24px;
 }
 .order p:nth-child(1) {
     display: flex;

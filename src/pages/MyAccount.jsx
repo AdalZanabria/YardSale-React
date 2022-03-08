@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/EditAccount.scss";
+import "../styles/MyAccount.scss";
 
 const EditAccount = () => {
     return (
-        <div className="login">
-            <div className="form-container">
+        <div className="MyAccount">
+            <div className="fMyAccount-container">
                 <h1 className="title">My Account</h1>
                 <form action="/" className="form">
                     <div>

@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/RecoveryPassword.scss";
+import "../styles/SendEmail.scss";
 
-const RecoveryPassword = () => {
+const SendEmail = () => {
     return (
-        <div className="login">
+        <div className="SendEmail">
             <div className="form-container">
                 <img
                     src="./logos/logo_yard_sale.svg"
@@ -28,4 +28,4 @@ const RecoveryPassword = () => {
     );
 };
 
-export default RecoveryPassword;
+export default SendEmail;

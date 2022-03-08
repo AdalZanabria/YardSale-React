@@ -1,14 +1,11 @@
 import React from "react";
-import Header from "../components/Header";
-import Inicio from "../containers/Inicio";
-import Layout from "../containers/Layout";
+import ProductList from "../containers/ProductList";
 
 const Home = () => {
     return (
-        <Layout>
-            <Header />
-            <Inicio />
-        </Layout>
+        <>
+            <ProductList />
+        </>
     );
 };
 

@@ -1,17 +1,14 @@
 import React from "react";
-import "../styles/DetalleProducto.scss";
+import "../styles/ProductInfo.scss";
 
-const DetalleProducto = () => {
+const ProductInfo = () => {
     return (
-        <aside className="product-detail">
-            <div className="product-detail-close">
-                <img src="./icons/icon_close.png" alt="close" />
-            </div>
+        <>
             <img
                 src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt="product image"
             />
-            <div className="product-info">
+            <div className="ProductInfo">
                 <p>$35.00</p>
                 <p>Bike</p>
                 <p>
@@ -25,8 +22,8 @@ const DetalleProducto = () => {
                     Add to cart
                 </button>
             </div>
-        </aside>
+        </>
     );
 };
 
-export default DetalleProducto;
+export default ProductInfo;

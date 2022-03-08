@@ -1,15 +1,9 @@
 @import "vars";
 
-.cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 240px);
-    gap: 26px;
-    place-content: center;
-}
-.product-card {
+.ProductItem {
     width: 240px;
 }
-.product-card img {
+.ProductItem img {
     width: 240px;
     height: 240px;
     border-radius: 20px;
@@ -40,10 +34,8 @@
     margin-bottom: 0px;
     color: var(--very-light-pink);
 }
+
 @media (max-width: 640px) {
-    .cards-container {
-        grid-template-columns: repeat(auto-fill, 140px);
-    }
     .product-card {
         width: 140px;
     }
