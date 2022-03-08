@@ -4,6 +4,7 @@ import Layout from "../containers/Layout";
 import Login from "../containers/Login";
 import RecoveryPassword from "../containers/RecoveryPassword";
 import Home from "../pages/Home";
+import MyAccount from "../containers/MyAccount";
 import NotFound from "../pages/NotFound";
 import "../styles/global.css";
 
@@ -18,6 +19,7 @@ const App = () => {
                         path="/recovery-password"
                         element={<RecoveryPassword />}
                     />
+                    <Route path="/my-account" element={<MyAccount />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Layout>
