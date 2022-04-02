@@ -2,10 +2,10 @@
 <h2 align="center">Componentes de sitio ecommerce</h2>
 <br>
 <p>
-Creación de los componentes React que integran el sitio.
+Creación de los componentes React en base a la maquetación creada en <a href="https://github.com/AdalZanabria/YardSale-HTML">YardSale - HTML</a>.
 <ul>
     <li>Uso de React Hooks.</li>
-    <li>Useo de React Router.</li>
+    <li>Uso de React Router.</li>
     <li>Manejo del estado de los componentes.</li>
     <li>Aplicación de patrón de diseño <em>Atomic Design</em>.</li>
     <li>Estilos con preprocesador Sass.</li>
