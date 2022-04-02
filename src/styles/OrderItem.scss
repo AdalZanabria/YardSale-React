@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 16px;
-    align-items: center;
     margin-bottom: 24px;
     align-items: center;
 }
@@ -24,4 +23,8 @@
 .OrderItem p:nth-child(3) {
     font-size: var(--md);
     font-weight: bold;
+}
+
+.close {
+    cursor: pointer;
 }
